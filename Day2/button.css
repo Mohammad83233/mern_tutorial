@@ -1,0 +1,65 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Remove list style */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* Button base style */
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Login button */
+.login a {
+    background-color: #555;
+}
+.login a:hover {
+    background-color: #333;
+}
+
+/* Horizontal row for color buttons */
+.color-buttons {
+    display: flex;
+    gap: 10px; /* space between buttons */
+}
+
+/* Green button */
+.green a {
+    background-color: green;
+}
+.green a:hover {
+    background-color: darkgreen;
+}
+
+/* Blue button */
+.blue a {
+    background-color: blue;
+}
+.blue a:hover {
+    background-color: darkblue;
+}
+
+/* Red button with advanced hover effect */
+.red a {
+    background-color: red;
+    transition: all 0.3s ease;
+}
+.red a:hover {
+    background: linear-gradient(45deg, red, orange);
+    transform: scale(1.1) rotate(-2deg);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
