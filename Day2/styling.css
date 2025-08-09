@@ -2,60 +2,49 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
+    margin: 0;
 }
 
-/* Remove list style */
+/* Navigation Bar */
+nav {
+    background-color: #333;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0;
+    margin: 0;
+    display: flex; /* horizontal layout */
+    justify-content: center; /* center items */
 }
 
-/* Button base style */
+nav li {
+    margin: 0;
+}
+
 nav a {
-    display: inline-block;
-    padding: 10px 20px;
+    display: block;
+    padding: 14px 20px;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
-/* Login button */
-.login a {
+nav a:hover {
     background-color: #555;
 }
-.login a:hover {
-    background-color: #333;
+
+/* Dotted paragraph */
+.dotted {
+    font-family: "Montserrat", sans-serif; 
+    font-size: larger;
+    border-bottom: 2px dotted #555;
+    padding-bottom: 5px;
 }
 
-/* Horizontal row for color buttons */
-.color-buttons {
-    display: flex;
-    gap: 10px; /* space between buttons */
-}
-
-/* Green button */
-.green a {
-    background-color: green;
-}
-.green a:hover {
-    background-color: darkgreen;
-}
-
-/* Blue button */
-.blue a {
-    background-color: blue;
-}
-.blue a:hover {
-    background-color: darkblue;
-}
-
-/* Red button */
-.red a {
-    background-color: red;
-}
-.red a:hover {
-    background-color: darkred;
+/* Topic list styling */
+.topic-list {
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
 }
