@@ -26,3 +26,5 @@ const fruits = ["apple","banana","guava"]
 fruits.forEach(fruits =>{
     console.log(fruits)
 })
+
+const numbers = [1,2,3,4]
